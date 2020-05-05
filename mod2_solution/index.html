@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		h1 {
+			text-align: center;
+		}
+
+		@media(min-width:992px)
+		{
+			.pizza {
+				box-sizing: border-box;
+				border:1px black;
+				float:left;
+				width:30%;
+				height:100px;
+				background-color: blue;
+				margin-left: 10px;
+				margin-right: 10px;
+			}
+
+			.pizza_head {
+				width:20%;
+				background-color: #ff00ff;
+				float:right;
+				text-align: center;
+			}
+
+			.noodle_head {
+				width:20%;
+				background-color: #00ff00;
+				float:right;
+				text-align: center;
+			}
+
+			.burger_head {
+				width:20%;
+				background-color: #00ffff;
+				float:right;
+				text-align: center;
+			}
+
+			.noodle {
+				box-sizing: border-box;
+				border:1px black;
+				float:left;
+				width:30%;
+				height:100px;
+				background-color: blue;
+				margin-left: 10px;
+				margin-right: 10px;
+			}
+
+			.burger {
+				box-sizing: border-box;
+				border:1px black;
+				float:left;
+				height:100px;
+				width:30%;
+				background-color: blue;
+				margin-left: 10px;
+				margin-right: 10px;
+			}
+		}
+
+		@media(min-width: 768px) and (max-width: 991px){
+			.pizza {
+				box-sizing: border-box;
+				border:1px black;
+				float:left;
+				width:45%;
+				background-color: blue;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: auto;
+				margin-bottom: 10px;
+				height:100px;
+			}
+
+			.noodle {
+				box-sizing: border-box;
+				border:1px black;
+				float:right;
+				width:45%;
+				background-color: blue;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: auto;
+				margin-bottom: auto;
+				height:100px;
+			}
+
+			.burger {
+				box-sizing: border-box;
+				border:1px black;
+				clear:both;
+				float:left;
+				width:45%;
+				background-color: blue;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 10px;
+				margin-bottom: auto;
+				height:100px;
+			}
+
+			.pizza_head {
+				width:20%;
+				background-color: #ff00ff;
+				float:right;
+				text-align: center;
+			}
+
+			.noodle_head {
+				width:20%;
+				background-color: #00ff00;
+				float:right;
+				text-align: center;
+			}
+
+			.burger_head {
+				width:20%;
+				background-color: #00ffff;
+				float:right;
+				text-align: center;
+			}
+
+		}
+
+		@media(max-width:767px){
+			.pizza,.burger,.noodle {
+				box-sizing: border-box;
+				border:1px black;
+				clear:both;
+				width:100%;
+				background-color: blue;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: auto;
+				margin-bottom: auto;
+				height:140px;
+			}
+
+			.pizza_head,.burger_head,.noodle_head {
+				width:20%;
+				background-color: #ff00ff;
+				float:right;
+				text-align: center;
+			}
+
+		}
+
+	</style>
+</head>
+
+<body>
+	<h1>MENU</h1>
+	
+	<section class = "pizza">
+		<div class = "pizza_head">Pizza</div>
+		<p>
+			Pizza is an italian food item. It consists of a pizza base made of bread with cheese. Toppings like capsicum, onions and others are provided.
+		</p>
+	</section>
+
+	<section class = "noodle">
+		<div class = "noodle_head">Noodles</div>
+		<p>
+			Noodles is an chinese food item. It is made up of rice. Toppings like capsicum, onions and others are provided.
+		</p>
+	</section>
+
+	<section class = "burger">
+		<div class = "burger_head">Burger</div>
+		<p>
+			Burger is an american food item. It consists of a sandwich bread of bread with cheese. Toppings like capsicum, onions and others are provided.
+		</p>
+	</section>
+	
+</body>
+</html>
+
+
